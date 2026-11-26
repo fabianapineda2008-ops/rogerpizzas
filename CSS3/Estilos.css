@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body,html{
+    font-family: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+    background-color:  #FF9000 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px solid black;
+}
+
+.menu .navbar ul li {
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 600;
+    color: #1D1D1D;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #FFFFFF;
+}
+
+#menu{
+    display: none;
+}
+
+.logo-menu{
+    width: 25px;
+}
+
+.logo-menu{
+    cursor: pointer;
+}
+
+.logo-menu{
+    display: none;
+}
+
+.semi-circulo-1 {
+    position: absolute;
+    width: 650px;
+    top: 99px;
+    right: 0;
+    z-index: -1;
+}
+
+.header-img img{
+    margin-top: 50px;
+    width: 800px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-txt{
+    width: 50%;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+
+.header-txt h1{
+    font-size: 50px;
+    line-height: 65px;
+    color: #1D1D1D;
+    margin-bottom: 35px;
+}
+
+.header-txt p{
+    font-size: 20px;
+    color: #5e5e5e;
+    margin-bottom: 45px;
+}
+
+.header-txt span{
+    color: #ffae00;
+}
+
+
+.Horario{
+    display: inline-block;
+    padding: 13px 45px;
+    border-radius: 25px;
+    background-color: #ff9000;
+    font-size: 16px;
+    color: rgb(21, 1, 1);
+    text-transform: capitalize;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.Pizzas-clasicas-content{
+    display: flex;
+}
+
+
+.semi-circulo-2{
+    position: absolute;
+    width: 300px;
+    z-index: -1;
+    top: 50px;
+}
+
+.info{
+    padding: 80px 0 30px 0;
+    position: relative;
+}
+
+.info-content{
+    display: flex;
+    align-items: center;
+}
+
+.info-img{
+    width: 50%;
+    text-align: left;
+}
+
+.info-img img{
+    width: 450px;
+    margin-left: -30px;
+}
+
+.info-txt{
+    width: 45%;
+}
+
+.info-txt h2{
+    font-size: 45px;
+    line-height: 55px;
+    color: #1D1D1B;
+    margin-bottom: 15px;
+}
+
+.info-txt p{
+    font-size: 20px;
+    color: #535353;
+    margin-bottom: 45px;
+}
+
+.productos{
+    padding: 0 0 50px 0;
+    text-align: center;
+}
+
+.Box-container{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+}
+
+.Box{
+    border-top: 2px solid #ff9000;
+    border-left: 2px solid #FF9000;
+    border-right: 2px solid #FF9000;
+    padding: 20px;
+    border-radius: 15px;
+    z-index: 1000;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Box:hover img{
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+
+.Box img{
+    width: 120px;
+    height: 120px;
+}
+
+.productos-txt h3{
+    font-size: 20px;
+    color: #1D1D1B;
+    margin-bottom: 10px;
+}
+
+.productos-txt p{
+    margin-bottom: 25px;
+}
+    
+.imagen-menu{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+.imagen-menu h2{
+    font-size: 45px;
+    line-height: 55px;
+    color: #1D1D1B;
+    margin-bottom: 15px;
+}
+
+.imagen-menu p {
+    font-size: 16px;
+    color: #535353;
+    margin-bottom: 45px;
+}
+
+.menu-txt{
+    width: 50%;
+}
+
+.menu-txt p{
+    font-size: 20px;
+}
+
+.menu-img{
+    width: 50%;
+    text-align: center;
+}
+
+.menu-img img{
+    width: 450px;
+}
+
+
+.footer{
+    padding: 30px 0;
+    background-color: #f3a239;
+    border-top: 4px solid #251a0c;
+}
+
+ .footer-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center; 
+} 
+
+.Instagram a, .whatsapp a{
+   display: inline-flex;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+     width: 100px;
+    height: 100px;
+   
+
+}
+
+.Instagram p, .whatsapp p{
+    margin-bottom: 13px;
+}
+
+.icono-insta, .icono-whatapp{
+    width: 70px;
+}
+
+.Desarrolladores{
+   
+  background-color: rgba(255, 255, 255, 0.2); 
+  padding: 10px 15px;   
+   border-radius: 12px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
